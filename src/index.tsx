@@ -17,6 +17,6 @@ const OmantelLibrarySample = NativeModules.OmantelLibrarySample
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return OmantelLibrarySample.multiply(a, b);
+export function loadGame(): Promise<string> {
+  return OmantelLibrarySample.loadGame();
 }

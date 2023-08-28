@@ -1,6 +1,6 @@
 {
   "name": "react-native-omantel_library_sample",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Gamification sample for omantel",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -43,7 +43,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/gamification2021/react-native-omantel_library_sample",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamification2021/react-native-omantel_library_sample.git"
+  },
   "author": "6d <gamificationhub@gmail.com> (https://github.com/gamification2021)",
   "license": "MIT",
   "bugs": {
@@ -159,5 +162,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
