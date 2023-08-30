@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
   s.license      = package["license"]
   s.authors      = package["author"]
+  s.ios.vendored_frameworks = "ios/GamificationFramework.xcframework"
 
   s.platforms    = { :ios => "11.0" }
   s.source       = { :git => "https://github.com/gamification2021/react-native-omantel_library_sample.git", :tag => "#{s.version}" }

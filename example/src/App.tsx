@@ -4,10 +4,10 @@ import { StyleSheet, View, Text } from 'react-native';
 import { loadGame } from 'react-native-omantel_library_sample';
 
 export default function App() {
-  const [result, setResult] = React.useState<string | undefined>();
+  const [result] = React.useState<string | undefined>();
 
   React.useEffect(() => {
-    loadGame().then(setResult);
+    loadGame();
   }, []);
 
   return (
