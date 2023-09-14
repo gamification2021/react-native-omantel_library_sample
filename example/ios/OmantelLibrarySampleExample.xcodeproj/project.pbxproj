@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* OmantelLibrarySampleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OmantelLibrarySampleExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-OmantelLibrarySampleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-OmantelLibrarySampleExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CAEE11829AF4FD23F356352A /* libPods-OmantelLibrarySampleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A955613ED8DA7B68C13DD /* libPods-OmantelLibrarySampleExample.a */; };
+		EA0264C9E188C3BDA977D3C3 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A61448720BEA2EDFE06E7D /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OmantelLibrarySampleExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OmantelLibrarySampleExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OmantelLibrarySampleExample/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-OmantelLibrarySampleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample.debug.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-OmantelLibrarySampleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample.release.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-OmantelLibrarySampleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmantelLibrarySampleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A080729D1120DB6FA8275 /* Pods-OmantelLibrarySampleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample.debug.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		54A61448720BEA2EDFE06E7D /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C58D8AF5F7D382776472962 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OmantelLibrarySampleExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		965A955613ED8DA7B68C13DD /* libPods-OmantelLibrarySampleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmantelLibrarySampleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E34AB5CDEB07CB111AEEA5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C99A4043891785568E88BDE8 /* Pods-OmantelLibrarySampleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmantelLibrarySampleExample.release.xcconfig"; path = "Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a in Frameworks */,
+				EA0264C9E188C3BDA977D3C3 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-OmantelLibrarySampleExample.a in Frameworks */,
+				CAEE11829AF4FD23F356352A /* libPods-OmantelLibrarySampleExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-OmantelLibrarySampleExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */,
+				965A955613ED8DA7B68C13DD /* libPods-OmantelLibrarySampleExample.a */,
+				54A61448720BEA2EDFE06E7D /* libPods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-OmantelLibrarySampleExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-OmantelLibrarySampleExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */,
+				391A080729D1120DB6FA8275 /* Pods-OmantelLibrarySampleExample.debug.xcconfig */,
+				C99A4043891785568E88BDE8 /* Pods-OmantelLibrarySampleExample.release.xcconfig */,
+				A9E34AB5CDEB07CB111AEEA5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */,
+				6C58D8AF5F7D382776472962 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OmantelLibrarySampleExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				74828165A08ABD8DDB428BDC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				2EDC86986DD5FA97DF421E6C /* [CP] Embed Pods Frameworks */,
+				FFD8CC8FA64985959BA81AA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OmantelLibrarySampleExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				A38928FDBAA95985F0D4D2DF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				BD2AC2D96FE4877AFC184538 /* [CP] Embed Pods Frameworks */,
+				E2205C9465F30ADFF6533868 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,24 +266,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		2EDC86986DD5FA97DF421E6C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		74828165A08ABD8DDB428BDC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,7 +305,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		A38928FDBAA95985F0D4D2DF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,24 +327,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		BD2AC2D96FE4877AFC184538 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		E2205C9465F30ADFF6533868 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,23 +359,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample/Pods-OmantelLibrarySampleExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -395,6 +378,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD8CC8FA64985959BA81AA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests/Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */;
+			baseConfigurationReference = A9E34AB5CDEB07CB111AEEA5 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */;
+			baseConfigurationReference = 6C58D8AF5F7D382776472962 /* Pods-OmantelLibrarySampleExample-OmantelLibrarySampleExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-OmantelLibrarySampleExample.debug.xcconfig */;
+			baseConfigurationReference = 391A080729D1120DB6FA8275 /* Pods-OmantelLibrarySampleExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +508,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-OmantelLibrarySampleExample.release.xcconfig */;
+			baseConfigurationReference = C99A4043891785568E88BDE8 /* Pods-OmantelLibrarySampleExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

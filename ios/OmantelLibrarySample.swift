@@ -1,12 +1,8 @@
-import GamificationFramework
+import Foundation
 
 @objc(OmantelLibrarySample)
 class OmantelLibrarySample: NSObject {
 
-  @objc(multiply:withB:withResolver:withRejecter:)
-  func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {
-    resolve(a*b)
-  }
    @objc func loadGame() {
     print("open game action")
     DispatchQueue.main.async {
@@ -18,7 +14,7 @@ class OmantelLibrarySample: NSObject {
           while let presentedViewController = topController.presentedViewController {
             topController = presentedViewController
           }
-          Game.openGame(controller: topController, complition: self.callBackHander(action:))
+          Game().openGame(controller: topController, complition: self.callBackHander(action:))
       }
       
     }
@@ -28,8 +24,6 @@ class OmantelLibrarySample: NSObject {
     switch action {
     case .back:
       print("Back button tapped")
-    default:
-      print("default")
     }
   }
 }
