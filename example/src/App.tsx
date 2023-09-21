@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -15,11 +15,11 @@ import {
   Text,
   useColorScheme,
   View,
-  TouchableOpacity ,
+  TouchableOpacity,
 } from 'react-native';
 
 import {
-loadGame
+  loadGame,
 } from 'react-native-omantel_library_sample';
 
 import {
@@ -34,7 +34,7 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({children, title}: SectionProps): JSX.Element {
+function Section({ children, title }: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -81,13 +81,13 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-            <TouchableOpacity  onPress={() => {loadGame()}}> 
+          <TouchableOpacity onPress={() => { loadGame() }}>
             <Section title="Step One">
               <Text style={styles.highlight}>
-              Click here
-              </Text> 
+                Click here
+              </Text>
             </Section>
-            </TouchableOpacity>
+          </TouchableOpacity>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
