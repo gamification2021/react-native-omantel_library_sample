@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
   s.license      = package["license"]
   s.authors      = package["author"]
-  s.ios.vendored_frameworks = "ios/GamificationFramework.xcframework"
-
+  #s.ios.vendored_frameworks = "ios/GamificationFramework.xcframework"
+  s.resources = "ios/Resources/**/*"
   s.platforms    = { :ios => "11.0" }
   s.source       = { :git => "https://github.com/gamification2021/react-native-omantel_library_sample.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.source_files = "ios/**/*.{h,m,mm,swift,storyboard,xib,png}"
 
   # Use install_modules_dependencies helper to install the dependencies if React Native version >=0.71.0.
   # See https://github.com/facebook/react-native/blob/febf6b7f33fdb4904669f99d795eba4c0f95d7bf/scripts/cocoapods/new_architecture.rb#L79.
