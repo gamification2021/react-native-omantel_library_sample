@@ -1,4 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
+import DailyChallenge from './DailyChallenge';
 
 const LINKING_ERROR =
   `The package 'react-native-omantel_library_sample' doesn't seem to be linked. Make sure: \n\n` +
@@ -9,14 +10,16 @@ const LINKING_ERROR =
 const OmantelLibrarySample = NativeModules.OmantelLibrarySample
   ? NativeModules.OmantelLibrarySample
   : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+    {},
+    {
+      get() {
+        throw new Error(LINKING_ERROR);
+      },
+    }
+  );
 
-export function loadGame(): Promise<string> {
+function loadGame(): Promise<string> {
   return OmantelLibrarySample.loadGame();
 }
+
+export { loadGame, DailyChallenge }

@@ -1,6 +1,6 @@
 {
   "name": "react-native-omantel_library_sample",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Gamification sample for omantel",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
